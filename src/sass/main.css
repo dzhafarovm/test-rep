@@ -37,4 +37,16 @@
 .header-section--li:not(:first-child) {
   padding-left: 50px;
 }
+
+.footer-section {
+  background-color: #3b4444;
+}
+
+.footer-section__text {
+  color: green;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
 /*# sourceMappingURL=main.css.map */
