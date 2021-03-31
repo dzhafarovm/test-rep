@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+.header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: violet;
+}
+
+.header-section--title {
+  margin: 0;
+  color: tomato;
+}
+
+.header-section--ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-section--li {
+  list-style: none;
+  color: #ba9c59;
+}
+
+.header-section--li:not(:first-child) {
+  padding-left: 50px;
+}
+/*# sourceMappingURL=main.css.map */
