@@ -4,12 +4,8 @@
  * Все паршалы подключаются сюда.
  */
 .header-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
@@ -24,8 +20,6 @@
 
 .header-section--ul {
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
